@@ -96,7 +96,7 @@ EOF
         color "Harbor安装完成!" 0
         echo "-------------------------------------------------------------------"
         echo -e "请访问链接: http://${HARBOR_IP}/" 
-	echo -e "用户和密码: admin/${HARBOR_ADMIN_PASSWORD}" 
+	    echo -e "用户和密码: admin/${HARBOR_ADMIN_PASSWORD}" 
     else
         color "Harbor安装失败!" 1
         exit
