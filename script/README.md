@@ -11,6 +11,6 @@ HOST_IP=10.0.0.10
 执行脚本进行安装部署
 
 ```
-sh install_dns.sh
+bash install_dns.sh
 ```
 
